@@ -1,0 +1,124 @@
+.sign{
+    position: absolute;
+    right: 0px;
+    /* width: 300px; */
+}
+
+.navbar-custom{ 
+    background-color: #e91e636e;
+}
+.button-div {
+    background-color:#ff005c;
+    border-radius: 25px;
+    width: 100px;
+    position: relative;
+    margin:40px auto auto;
+    text-align: center;
+}
+.button-div>a{
+    color:cornsilk;
+}
+h1{
+    color:#0f1123;
+}
+.nav-link{
+    color:black;
+}
+.nav-link:hover{
+    color:white;
+
+}
+/* for signup form */
+
+.col-md-auto{
+    width: 500px;
+    padding-top:20px;
+    /* margin: 50px 150px 50px 450px */
+}
+
+.button-div>a>button{
+    color:cornsilk;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+#div_id_username>label{
+    color:#0f1123;
+    margin-bottom: 10px;
+}
+#div_id_password1>label{
+    margin-top:10px;
+    color:#0f1123;
+    margin-bottom: 10px;
+}
+#div_id_password2>label{
+    color:#0f1123;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+#hint_id_password1{
+    display: none;
+}
+.error{
+    border-radius: 10px;
+    border: 2px solid #822659;
+    background-color: #ffe8e8;
+    margin:50px 0 50px 0;
+    padding:15px;
+    font-size: 12px;
+}
+/* login  */
+#div_id_password>label{
+    color:#0f1123;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.col-md-5>h2{
+    margin:50px 0 50px 0;
+}
+/* logout button */
+
+.signoutbutton{
+    background-color: transparent;
+    border: 0px;
+}
+.signoutbutton:hover,.button-container button:hover{
+    color: white;
+}
+
+/* for create todo */
+
+#title{
+    margin: 10px 0 30px 0;
+}
+#memo{
+    margin: 10px 0 30px 0;
+}
+#important{
+    margin-left:0.5%;
+} 
+/* for save delete and complete buttons */
+.button-container form,
+.button-container form div {
+    display: inline;
+}
+
+.button-container button {
+    display: inline;
+    vertical-align: middle;
+    background-color:#ff005c;
+    border-radius: 25px;
+    width: 100px;
+    /* position: relative; */
+    /* margin:60px auto auto; */
+    text-align: center;
+    color: cornsilk;
+}
+
+.viewbutton{
+    margin:30px 0 0 6px;
+}
+.new{
+    background-color:#ff005c;
+    border-radius: 25px;
+
+}
